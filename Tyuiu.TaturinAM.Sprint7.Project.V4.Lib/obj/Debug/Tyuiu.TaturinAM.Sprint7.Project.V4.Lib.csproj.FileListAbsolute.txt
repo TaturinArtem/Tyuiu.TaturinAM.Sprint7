@@ -1,0 +1,5 @@
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib\bin\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib.dll
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib\bin\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib.pdb
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib.csproj.CoreCompileInputs.cache
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib.dll
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.Lib.pdb
