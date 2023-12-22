@@ -30,7 +30,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelData_TAM = new System.Windows.Forms.Panel();
             this.groupBoxData_TAM = new System.Windows.Forms.GroupBox();
@@ -126,14 +126,14 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.dataGridViewMain_TAM.AllowUserToResizeColumns = false;
             this.dataGridViewMain_TAM.AllowUserToResizeRows = false;
             this.dataGridViewMain_TAM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewMain_TAM.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewMain_TAM.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewMain_TAM.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridViewMain_TAM.Location = new System.Drawing.Point(2, 15);
             this.dataGridViewMain_TAM.Margin = new System.Windows.Forms.Padding(2);
@@ -327,6 +327,9 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // groupBoxIcons_TAM
             // 
+            this.groupBoxIcons_TAM.BackColor = System.Drawing.SystemColors.Control;
+            this.groupBoxIcons_TAM.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("groupBoxIcons_TAM.BackgroundImage")));
+            this.groupBoxIcons_TAM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBoxIcons_TAM.Controls.Add(this.buttonSaveUserBase_TAM);
             this.groupBoxIcons_TAM.Controls.Add(this.buttonOpenUserBase_TAM);
             this.groupBoxIcons_TAM.Controls.Add(this.buttonInfo_TAM);
@@ -370,6 +373,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.buttonInfo_TAM.Size = new System.Drawing.Size(56, 44);
             this.buttonInfo_TAM.TabIndex = 0;
             this.buttonInfo_TAM.UseVisualStyleBackColor = true;
+            this.buttonInfo_TAM.Click += new System.EventHandler(this.buttonInfo_TAM_Click);
             // 
             // buttonSaveBookBase_TAM
             // 
@@ -383,6 +387,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // buttonOpenBookBase_TAM
             // 
+            this.buttonOpenBookBase_TAM.ForeColor = System.Drawing.SystemColors.ControlText;
             this.buttonOpenBookBase_TAM.Image = ((System.Drawing.Image)(resources.GetObject("buttonOpenBookBase_TAM.Image")));
             this.buttonOpenBookBase_TAM.Location = new System.Drawing.Point(28, 7);
             this.buttonOpenBookBase_TAM.Margin = new System.Windows.Forms.Padding(2);
@@ -394,7 +399,8 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // menuStripMainMenu_TAM
             // 
-            this.menuStripMainMenu_TAM.BackColor = System.Drawing.SystemColors.Control;
+            this.menuStripMainMenu_TAM.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.menuStripMainMenu_TAM.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.menuStripMainMenu_TAM.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStripMainMenu_TAM.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.ToolStripMenuItemFile_TAM,

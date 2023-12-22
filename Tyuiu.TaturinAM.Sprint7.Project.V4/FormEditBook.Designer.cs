@@ -29,6 +29,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormEditBook));
             this.buttonEditNewBook_TAM = new System.Windows.Forms.Button();
             this.labelIsBookNew_TAM = new System.Windows.Forms.Label();
             this.labelGenre_TAM = new System.Windows.Forms.Label();
@@ -46,7 +47,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // buttonEditNewBook_TAM
             // 
-            this.buttonEditNewBook_TAM.Location = new System.Drawing.Point(195, 167);
+            this.buttonEditNewBook_TAM.Location = new System.Drawing.Point(240, 167);
             this.buttonEditNewBook_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.buttonEditNewBook_TAM.Name = "buttonEditNewBook_TAM";
             this.buttonEditNewBook_TAM.Size = new System.Drawing.Size(110, 34);
@@ -58,7 +59,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelIsBookNew_TAM
             // 
             this.labelIsBookNew_TAM.AutoSize = true;
-            this.labelIsBookNew_TAM.Location = new System.Drawing.Point(218, 121);
+            this.labelIsBookNew_TAM.Location = new System.Drawing.Point(263, 121);
             this.labelIsBookNew_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIsBookNew_TAM.Name = "labelIsBookNew_TAM";
             this.labelIsBookNew_TAM.Size = new System.Drawing.Size(87, 13);
@@ -68,7 +69,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelGenre_TAM
             // 
             this.labelGenre_TAM.AutoSize = true;
-            this.labelGenre_TAM.Location = new System.Drawing.Point(266, 66);
+            this.labelGenre_TAM.Location = new System.Drawing.Point(311, 66);
             this.labelGenre_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelGenre_TAM.Name = "labelGenre_TAM";
             this.labelGenre_TAM.Size = new System.Drawing.Size(39, 13);
@@ -78,7 +79,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelYear_TAM
             // 
             this.labelYear_TAM.AutoSize = true;
-            this.labelYear_TAM.Location = new System.Drawing.Point(11, 119);
+            this.labelYear_TAM.Location = new System.Drawing.Point(56, 119);
             this.labelYear_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelYear_TAM.Name = "labelYear_TAM";
             this.labelYear_TAM.Size = new System.Drawing.Size(74, 13);
@@ -88,7 +89,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelAuthor_TAM
             // 
             this.labelAuthor_TAM.AutoSize = true;
-            this.labelAuthor_TAM.Location = new System.Drawing.Point(22, 71);
+            this.labelAuthor_TAM.Location = new System.Drawing.Point(67, 71);
             this.labelAuthor_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelAuthor_TAM.Name = "labelAuthor_TAM";
             this.labelAuthor_TAM.Size = new System.Drawing.Size(40, 13);
@@ -98,7 +99,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelBook_Name
             // 
             this.labelBook_Name.AutoSize = true;
-            this.labelBook_Name.Location = new System.Drawing.Point(245, 14);
+            this.labelBook_Name.Location = new System.Drawing.Point(290, 14);
             this.labelBook_Name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelBook_Name.Name = "labelBook_Name";
             this.labelBook_Name.Size = new System.Drawing.Size(60, 13);
@@ -108,10 +109,13 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelArticle_TAM
             // 
             this.labelArticle_TAM.AutoSize = true;
-            this.labelArticle_TAM.Location = new System.Drawing.Point(11, 18);
+            this.labelArticle_TAM.BackColor = System.Drawing.Color.Transparent;
+            this.labelArticle_TAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelArticle_TAM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelArticle_TAM.Location = new System.Drawing.Point(47, 18);
             this.labelArticle_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelArticle_TAM.Name = "labelArticle_TAM";
-            this.labelArticle_TAM.Size = new System.Drawing.Size(51, 13);
+            this.labelArticle_TAM.Size = new System.Drawing.Size(59, 13);
             this.labelArticle_TAM.TabIndex = 32;
             this.labelArticle_TAM.Text = "Артикул:";
             // 
@@ -122,7 +126,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.comboBoxIsBookNew_TAM.Items.AddRange(new object[] {
             "да",
             "нет"});
-            this.comboBoxIsBookNew_TAM.Location = new System.Drawing.Point(307, 119);
+            this.comboBoxIsBookNew_TAM.Location = new System.Drawing.Point(352, 119);
             this.comboBoxIsBookNew_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxIsBookNew_TAM.Name = "comboBoxIsBookNew_TAM";
             this.comboBoxIsBookNew_TAM.Size = new System.Drawing.Size(166, 21);
@@ -131,7 +135,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // textBoxBookGenre_TAM
             // 
-            this.textBoxBookGenre_TAM.Location = new System.Drawing.Point(307, 64);
+            this.textBoxBookGenre_TAM.Location = new System.Drawing.Point(352, 64);
             this.textBoxBookGenre_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBookGenre_TAM.Name = "textBoxBookGenre_TAM";
             this.textBoxBookGenre_TAM.Size = new System.Drawing.Size(166, 20);
@@ -139,7 +143,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // textBoxBookYear_TAM
             // 
-            this.textBoxBookYear_TAM.Location = new System.Drawing.Point(86, 116);
+            this.textBoxBookYear_TAM.Location = new System.Drawing.Point(131, 116);
             this.textBoxBookYear_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBookYear_TAM.Name = "textBoxBookYear_TAM";
             this.textBoxBookYear_TAM.Size = new System.Drawing.Size(118, 20);
@@ -147,7 +151,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // textBoxBookAuthor_TAM
             // 
-            this.textBoxBookAuthor_TAM.Location = new System.Drawing.Point(67, 68);
+            this.textBoxBookAuthor_TAM.Location = new System.Drawing.Point(112, 68);
             this.textBoxBookAuthor_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBookAuthor_TAM.Name = "textBoxBookAuthor_TAM";
             this.textBoxBookAuthor_TAM.Size = new System.Drawing.Size(137, 20);
@@ -155,7 +159,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // textBoxBookName_TAM
             // 
-            this.textBoxBookName_TAM.Location = new System.Drawing.Point(306, 11);
+            this.textBoxBookName_TAM.Location = new System.Drawing.Point(351, 11);
             this.textBoxBookName_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBookName_TAM.Name = "textBoxBookName_TAM";
             this.textBoxBookName_TAM.Size = new System.Drawing.Size(166, 20);
@@ -163,7 +167,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // textBoxBookArticle_TAM
             // 
-            this.textBoxBookArticle_TAM.Location = new System.Drawing.Point(65, 16);
+            this.textBoxBookArticle_TAM.Location = new System.Drawing.Point(110, 16);
             this.textBoxBookArticle_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.textBoxBookArticle_TAM.Name = "textBoxBookArticle_TAM";
             this.textBoxBookArticle_TAM.Size = new System.Drawing.Size(139, 20);
@@ -173,6 +177,8 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(578, 222);
             this.Controls.Add(this.buttonEditNewBook_TAM);
             this.Controls.Add(this.labelIsBookNew_TAM);

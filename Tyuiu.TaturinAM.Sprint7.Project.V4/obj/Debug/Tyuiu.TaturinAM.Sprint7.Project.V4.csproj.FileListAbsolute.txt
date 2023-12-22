@@ -11,3 +11,7 @@ C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Proj
 C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.csproj.CopyComplete
 C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.exe
 C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.pdb
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.FormAddBook.resources
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.FormEditBook.resources
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.FormSearchBook.resources
+C:\Users\Tatur\source\repos\Tyuiu.TaturinAM.Sprint7\Tyuiu.TaturinAM.Sprint7.Project.V4\obj\Debug\Tyuiu.TaturinAM.Sprint7.Project.V4.FormAbout.resources

@@ -29,6 +29,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSearchBook));
             this.buttonAddNewBook_TAM = new System.Windows.Forms.Button();
             this.labelIsBookNew_TAM = new System.Windows.Forms.Label();
             this.labelArticle_TAM = new System.Windows.Forms.Label();
@@ -38,22 +39,26 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             // buttonAddNewBook_TAM
             // 
+            this.buttonAddNewBook_TAM.BackColor = System.Drawing.SystemColors.Control;
             this.buttonAddNewBook_TAM.Location = new System.Drawing.Point(116, 199);
             this.buttonAddNewBook_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.buttonAddNewBook_TAM.Name = "buttonAddNewBook_TAM";
             this.buttonAddNewBook_TAM.Size = new System.Drawing.Size(110, 34);
             this.buttonAddNewBook_TAM.TabIndex = 29;
             this.buttonAddNewBook_TAM.Text = "Найти";
-            this.buttonAddNewBook_TAM.UseVisualStyleBackColor = true;
+            this.buttonAddNewBook_TAM.UseVisualStyleBackColor = false;
             this.buttonAddNewBook_TAM.Click += new System.EventHandler(this.buttonAddNewBook_TAM_Click);
             // 
             // labelIsBookNew_TAM
             // 
             this.labelIsBookNew_TAM.AutoSize = true;
-            this.labelIsBookNew_TAM.Location = new System.Drawing.Point(41, 128);
+            this.labelIsBookNew_TAM.BackColor = System.Drawing.Color.Transparent;
+            this.labelIsBookNew_TAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelIsBookNew_TAM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelIsBookNew_TAM.Location = new System.Drawing.Point(44, 124);
             this.labelIsBookNew_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIsBookNew_TAM.Name = "labelIsBookNew_TAM";
-            this.labelIsBookNew_TAM.Size = new System.Drawing.Size(47, 13);
+            this.labelIsBookNew_TAM.Size = new System.Drawing.Size(54, 13);
             this.labelIsBookNew_TAM.TabIndex = 28;
             this.labelIsBookNew_TAM.Text = "Искать:";
             this.labelIsBookNew_TAM.Click += new System.EventHandler(this.labelIsBookNew_GKU_Click);
@@ -61,10 +66,13 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelArticle_TAM
             // 
             this.labelArticle_TAM.AutoSize = true;
-            this.labelArticle_TAM.Location = new System.Drawing.Point(41, 60);
+            this.labelArticle_TAM.BackColor = System.Drawing.Color.Transparent;
+            this.labelArticle_TAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelArticle_TAM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelArticle_TAM.Location = new System.Drawing.Point(32, 60);
             this.labelArticle_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelArticle_TAM.Name = "labelArticle_TAM";
-            this.labelArticle_TAM.Size = new System.Drawing.Size(57, 13);
+            this.labelArticle_TAM.Size = new System.Drawing.Size(66, 13);
             this.labelArticle_TAM.TabIndex = 27;
             this.labelArticle_TAM.Text = "Поиск по:";
             // 
@@ -99,6 +107,8 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(341, 268);
             this.Controls.Add(this.buttonAddNewBook_TAM);
             this.Controls.Add(this.labelIsBookNew_TAM);

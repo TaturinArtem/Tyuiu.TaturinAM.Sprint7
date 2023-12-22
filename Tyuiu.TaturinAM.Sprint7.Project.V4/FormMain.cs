@@ -176,5 +176,11 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             FormSearchBook formSearchBook = new FormSearchBook(this);
             formSearchBook.ShowDialog();
         }
+
+        private void buttonInfo_TAM_Click(object sender, EventArgs e)
+        {
+            FormAbout formAbout = new FormAbout();
+            formAbout.ShowDialog();
+        }
     }
 }
