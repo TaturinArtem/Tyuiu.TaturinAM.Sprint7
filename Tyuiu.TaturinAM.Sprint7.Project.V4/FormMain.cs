@@ -182,5 +182,58 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             FormAbout formAbout = new FormAbout();
             formAbout.ShowDialog();
         }
+
+        private void buttonAddUser_TAM_Click(object sender, EventArgs e)
+        {
+            FormAddUser formAddUser = new FormAddUser(this);
+            formAddUser.ShowDialog();
+            buttonUsersBase_TAM.Enabled = false;
+        }
+
+        private void buttonUsersBase_TAM_Click(object sender, EventArgs e)
+        {
+            dataGridViewMain_TAM.ColumnCount = columns;
+            dataGridViewMain_TAM.RowCount = rows;
+
+            dataGridViewMain_TAM.Columns[0].HeaderText = "Номер билета";
+            dataGridViewMain_TAM.Columns[1].HeaderText = "ФИО";
+            dataGridViewMain_TAM.Columns[2].HeaderText = "Адрес";
+            dataGridViewMain_TAM.Columns[3].HeaderText = "Номер телефона";
+            dataGridViewMain_TAM.Columns[4].HeaderText = "Артикул книги";
+            dataGridViewMain_TAM.Columns[5].HeaderText = "Дата получения";
+            dataGridViewMain_TAM.Columns[6].HeaderText = "Дата возврата";
+
+            dataGridViewMain_TAM.Columns[0].Width = 50;
+            dataGridViewMain_TAM.Columns[1].Width = 200;
+            dataGridViewMain_TAM.Columns[2].Width = 300;
+            dataGridViewMain_TAM.Columns[3].Width = 200;
+            dataGridViewMain_TAM.Columns[4].Width = 60;
+            dataGridViewMain_TAM.Columns[5].Width = 100;
+            dataGridViewMain_TAM.Columns[6].Width = 100;
+
+
+            dataGridViewMain_TAM.Rows[0].ReadOnly = true;
+            dataGridViewMain_TAM.Columns[0].ReadOnly = true;
+
+            string[,] arrayValues = new string[rows, columns];
+            arrayValues = LoadFromFileData(openFilePath);
+
+            for (int r = 0; r < rows; r++)
+            {
+                for (int c = 0; c < columns; c++)
+                {
+                    dataGridViewMain_TAM.Rows[r].Cells[c].Value = arrayValues[r, c];
+                }
+            }
+
+            arrayValues = ds.GetBase(openFilePath);
+            buttonDeleteUser_TAM.Visible = true;
+            buttonChangeUser_TAM.Visible = true;
+            buttonAddUser_TAM.Visible = true;
+            ToolStripMenuItemEditUsers_TAM.Enabled = true;
+            buttonSaveUserBase_TAM.Enabled = true;
+            ToolStripMenuItemEditUsers_TAM.Enabled = true;
+        }
+
     }
 }

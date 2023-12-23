@@ -30,7 +30,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelData_TAM = new System.Windows.Forms.Panel();
             this.groupBoxData_TAM = new System.Windows.Forms.GroupBox();
@@ -90,7 +90,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.panelData_TAM.Location = new System.Drawing.Point(249, 79);
             this.panelData_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.panelData_TAM.Name = "panelData_TAM";
-            this.panelData_TAM.Size = new System.Drawing.Size(551, 371);
+            this.panelData_TAM.Size = new System.Drawing.Size(551, 426);
             this.panelData_TAM.TabIndex = 9;
             // 
             // groupBoxData_TAM
@@ -102,18 +102,18 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.groupBoxData_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxData_TAM.Name = "groupBoxData_TAM";
             this.groupBoxData_TAM.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxData_TAM.Size = new System.Drawing.Size(551, 371);
+            this.groupBoxData_TAM.Size = new System.Drawing.Size(551, 426);
             this.groupBoxData_TAM.TabIndex = 0;
             this.groupBoxData_TAM.TabStop = false;
             // 
             // groupBoxInfo_TAM
             // 
             this.groupBoxInfo_TAM.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBoxInfo_TAM.Location = new System.Drawing.Point(2, 261);
+            this.groupBoxInfo_TAM.Location = new System.Drawing.Point(2, 381);
             this.groupBoxInfo_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxInfo_TAM.Name = "groupBoxInfo_TAM";
             this.groupBoxInfo_TAM.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxInfo_TAM.Size = new System.Drawing.Size(547, 108);
+            this.groupBoxInfo_TAM.Size = new System.Drawing.Size(547, 43);
             this.groupBoxInfo_TAM.TabIndex = 1;
             this.groupBoxInfo_TAM.TabStop = false;
             this.groupBoxInfo_TAM.Text = "Дополнительная информация";
@@ -126,14 +126,14 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.dataGridViewMain_TAM.AllowUserToResizeColumns = false;
             this.dataGridViewMain_TAM.AllowUserToResizeRows = false;
             this.dataGridViewMain_TAM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewMain_TAM.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewMain_TAM.DefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridViewMain_TAM.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridViewMain_TAM.Location = new System.Drawing.Point(2, 15);
             this.dataGridViewMain_TAM.Margin = new System.Windows.Forms.Padding(2);
@@ -142,7 +142,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.dataGridViewMain_TAM.RowHeadersVisible = false;
             this.dataGridViewMain_TAM.RowHeadersWidth = 51;
             this.dataGridViewMain_TAM.RowTemplate.Height = 24;
-            this.dataGridViewMain_TAM.Size = new System.Drawing.Size(547, 246);
+            this.dataGridViewMain_TAM.Size = new System.Drawing.Size(547, 366);
             this.dataGridViewMain_TAM.TabIndex = 0;
             // 
             // splitterData_TAM
@@ -150,7 +150,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.splitterData_TAM.Location = new System.Drawing.Point(241, 79);
             this.splitterData_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.splitterData_TAM.Name = "splitterData_TAM";
-            this.splitterData_TAM.Size = new System.Drawing.Size(8, 371);
+            this.splitterData_TAM.Size = new System.Drawing.Size(8, 426);
             this.splitterData_TAM.TabIndex = 8;
             this.splitterData_TAM.TabStop = false;
             // 
@@ -161,7 +161,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.panelButtons_TAM.Location = new System.Drawing.Point(0, 79);
             this.panelButtons_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.panelButtons_TAM.Name = "panelButtons_TAM";
-            this.panelButtons_TAM.Size = new System.Drawing.Size(241, 371);
+            this.panelButtons_TAM.Size = new System.Drawing.Size(241, 426);
             this.panelButtons_TAM.TabIndex = 7;
             // 
             // groupBoxButtons_TAM
@@ -173,7 +173,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.groupBoxButtons_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxButtons_TAM.Name = "groupBoxButtons_TAM";
             this.groupBoxButtons_TAM.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxButtons_TAM.Size = new System.Drawing.Size(241, 371);
+            this.groupBoxButtons_TAM.Size = new System.Drawing.Size(241, 426);
             this.groupBoxButtons_TAM.TabIndex = 0;
             this.groupBoxButtons_TAM.TabStop = false;
             // 
@@ -188,7 +188,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.groupBoxUsersButtons_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxUsersButtons_TAM.Name = "groupBoxUsersButtons_TAM";
             this.groupBoxUsersButtons_TAM.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxUsersButtons_TAM.Size = new System.Drawing.Size(237, 139);
+            this.groupBoxUsersButtons_TAM.Size = new System.Drawing.Size(237, 194);
             this.groupBoxUsersButtons_TAM.TabIndex = 2;
             this.groupBoxUsersButtons_TAM.TabStop = false;
             this.groupBoxUsersButtons_TAM.Text = "Работа с базой читателей";
@@ -214,10 +214,11 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.buttonUsersBase_TAM.TabIndex = 0;
             this.buttonUsersBase_TAM.Text = "База Читателей";
             this.buttonUsersBase_TAM.UseVisualStyleBackColor = true;
+            this.buttonUsersBase_TAM.Click += new System.EventHandler(this.buttonUsersBase_TAM_Click);
             // 
             // buttonDeleteUser_TAM
             // 
-            this.buttonDeleteUser_TAM.Location = new System.Drawing.Point(122, 143);
+            this.buttonDeleteUser_TAM.Location = new System.Drawing.Point(79, 126);
             this.buttonDeleteUser_TAM.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDeleteUser_TAM.Name = "buttonDeleteUser_TAM";
             this.buttonDeleteUser_TAM.Size = new System.Drawing.Size(89, 36);
@@ -236,6 +237,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.buttonAddUser_TAM.Text = "Добавить читателя";
             this.buttonAddUser_TAM.UseVisualStyleBackColor = true;
             this.buttonAddUser_TAM.Visible = false;
+            this.buttonAddUser_TAM.Click += new System.EventHandler(this.buttonAddUser_TAM_Click);
             // 
             // groupBoxBookButtons_TAM
             // 
@@ -500,7 +502,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 505);
             this.Controls.Add(this.panelData_TAM);
             this.Controls.Add(this.splitterData_TAM);
             this.Controls.Add(this.panelButtons_TAM);
