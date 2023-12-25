@@ -27,7 +27,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
         private void buttonAddNewUser_TAM_Click(object sender, EventArgs e)
         {
             fmain.dataGridViewMain_TAM.Rows.Add(textBoxUserID_TAM.Text, textBoxUserName_TAM.Text, textBoxUserAddress_TAM.Text, textBoxUserPhone_TAM.Text, textBoxUserBookArticle_TAM.Text, textBoxUserGetBookDate_TAM.Text, textBoxBookUserReturnBookDate_TAM.Text);
-            fmain.buttonDeleteUser_TAM.Enabled = true;
+            
             this.Close();
         }
 

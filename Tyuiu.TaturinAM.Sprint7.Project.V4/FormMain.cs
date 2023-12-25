@@ -235,5 +235,140 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             ToolStripMenuItemEditUsers_TAM.Enabled = true;
         }
 
+        private void buttonDeleteUser_TAM_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (dataGridViewMain_TAM.CurrentRow.Index >= 0)
+                {
+                    int a = dataGridViewMain_TAM.CurrentRow.Index;
+                    dataGridViewMain_TAM.Rows.Remove(dataGridViewMain_TAM.Rows[a]);
+                    if (dataGridViewMain_TAM.Rows.Count == 1)
+                    {
+                        dataGridViewMain_TAM.Rows.Clear();
+                    }
+                }
+                if (dataGridViewMain_TAM.Rows.Count <= 1)
+                {
+                    buttonDeleteBook_TAM.Enabled = false;
+                    buttonChangeBook_TAM.Enabled = false;
+                    buttonFindBook_TAM.Enabled = false;
+                }
+                if (dataGridViewMain_TAM.Rows.Count > 1)
+                {
+                    buttonDeleteBook_TAM.Enabled = true;
+                }
+                buttonBooks_TAM.Enabled = false;
+                buttonBooks_TAM.Text = dataGridViewMain_TAM.Rows.Count.ToString();
+
+            }
+            catch
+            {
+                MessageBox.Show("Ошибка при удалении книги", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+        }
+
+        private void buttonSaveUserBase_TAM_Click(object sender, EventArgs e)
+        {
+            saveFileDialogTask_TAM.FileName = "UsersBase.csv";
+            saveFileDialogTask_TAM.InitialDirectory = Directory.GetCurrentDirectory();
+            saveFileDialogTask_TAM.ShowDialog();
+
+            string path = saveFileDialogTask_TAM.FileName;
+
+            FileInfo fileInfo = new FileInfo(path);
+            bool FileExists = fileInfo.Exists;
+
+            if (FileExists)
+            {
+                File.Delete(path);
+            }
+
+            int rows = dataGridViewMain_TAM.RowCount;
+            int columns = dataGridViewMain_TAM.ColumnCount;
+
+            string str = "";
+
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    if (j != columns - 1)
+                    {
+                        str = str + dataGridViewMain_TAM.Rows[i].Cells[j].Value + ";";
+                    }
+                    else
+                    {
+                        str = str + dataGridViewMain_TAM.Rows[i].Cells[j].Value;
+                    }
+                }
+                File.AppendAllText(path, str + Environment.NewLine);
+                str = "";
+            }
+        }
+
+        private void ToolStripMenuItemSaveUser_TAM_Click(object sender, EventArgs e)
+        {
+            saveFileDialogTask_TAM.FileName = "UsersBase.csv";
+            saveFileDialogTask_TAM.InitialDirectory = Directory.GetCurrentDirectory();
+            saveFileDialogTask_TAM.ShowDialog();
+
+            string path = saveFileDialogTask_TAM.FileName;
+
+            FileInfo fileInfo = new FileInfo(path);
+            bool FileExists = fileInfo.Exists;
+
+            if (FileExists)
+            {
+                File.Delete(path);
+            }
+
+            int rows = dataGridViewMain_TAM.RowCount;
+            int columns = dataGridViewMain_TAM.ColumnCount;
+
+            string str = "";
+
+            for (int i = 0; i < rows; i++)
+            {
+                for (int j = 0; j < columns; j++)
+                {
+                    if (j != columns - 1)
+                    {
+                        str = str + dataGridViewMain_TAM.Rows[i].Cells[j].Value + ";";
+                    }
+                    else
+                    {
+                        str = str + dataGridViewMain_TAM.Rows[i].Cells[j].Value;
+                    }
+                }
+                File.AppendAllText(path, str + Environment.NewLine);
+                str = "";
+            }
+        }
+
+        private void buttonOpenUserBase_TAM_Click(object sender, EventArgs e)
+        {
+            openFileDialogTask_TAM.ShowDialog();
+            openFilePath = openFileDialogTask_TAM.FileName;
+
+            string[,] arrayValues = new string[rows, columns];
+
+            arrayValues = LoadFromFileData(openFilePath);
+
+            arrayValues = ds.GetBase(openFilePath);
+            buttonUsersBase_TAM.Enabled = true;
+            buttonDeleteUser_TAM.Enabled = true;
+            buttonChangeUser_TAM.Enabled = true;
+            buttonBooks_TAM.Enabled = false;
+            buttonAddBook_TAM.Visible = false;
+            buttonChangeBook_TAM.Visible = false;
+            buttonDeleteBook_TAM.Visible = false;
+            buttonFindBook_TAM.Visible = false;
+            buttonSaveBookBase_TAM.Enabled = false;
+            ToolStripMenuItemFile_TAM.Enabled = false;
+            ToolStripMenuItemEditBooks_TAM.Enabled = false;
+        }
     }
 }
+

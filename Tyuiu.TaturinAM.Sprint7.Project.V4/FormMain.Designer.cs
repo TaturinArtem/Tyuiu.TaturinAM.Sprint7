@@ -30,7 +30,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.panelData_TAM = new System.Windows.Forms.Panel();
             this.groupBoxData_TAM = new System.Windows.Forms.GroupBox();
@@ -126,14 +126,14 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.dataGridViewMain_TAM.AllowUserToResizeColumns = false;
             this.dataGridViewMain_TAM.AllowUserToResizeRows = false;
             this.dataGridViewMain_TAM.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewMain_TAM.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewMain_TAM.DefaultCellStyle = dataGridViewCellStyle1;
             this.dataGridViewMain_TAM.Dock = System.Windows.Forms.DockStyle.Top;
             this.dataGridViewMain_TAM.Location = new System.Drawing.Point(2, 15);
             this.dataGridViewMain_TAM.Margin = new System.Windows.Forms.Padding(2);
@@ -226,6 +226,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.buttonDeleteUser_TAM.Text = "Удалить читателя";
             this.buttonDeleteUser_TAM.UseVisualStyleBackColor = true;
             this.buttonDeleteUser_TAM.Visible = false;
+            this.buttonDeleteUser_TAM.Click += new System.EventHandler(this.buttonDeleteUser_TAM_Click);
             // 
             // buttonAddUser_TAM
             // 
@@ -355,6 +356,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.buttonSaveUserBase_TAM.Size = new System.Drawing.Size(56, 44);
             this.buttonSaveUserBase_TAM.TabIndex = 0;
             this.buttonSaveUserBase_TAM.UseVisualStyleBackColor = true;
+            this.buttonSaveUserBase_TAM.Click += new System.EventHandler(this.buttonSaveUserBase_TAM_Click);
             // 
             // buttonOpenUserBase_TAM
             // 
@@ -365,6 +367,7 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             this.buttonOpenUserBase_TAM.Size = new System.Drawing.Size(56, 44);
             this.buttonOpenUserBase_TAM.TabIndex = 0;
             this.buttonOpenUserBase_TAM.UseVisualStyleBackColor = true;
+            this.buttonOpenUserBase_TAM.Click += new System.EventHandler(this.buttonOpenUserBase_TAM_Click);
             // 
             // buttonInfo_TAM
             // 

@@ -59,50 +59,65 @@ namespace Tyuiu.TaturinAM.Sprint7.Project.V4
             // labelIsBookNew_TAM
             // 
             this.labelIsBookNew_TAM.AutoSize = true;
-            this.labelIsBookNew_TAM.Location = new System.Drawing.Point(263, 121);
+            this.labelIsBookNew_TAM.BackColor = System.Drawing.Color.Transparent;
+            this.labelIsBookNew_TAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelIsBookNew_TAM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelIsBookNew_TAM.Location = new System.Drawing.Point(249, 123);
             this.labelIsBookNew_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIsBookNew_TAM.Name = "labelIsBookNew_TAM";
-            this.labelIsBookNew_TAM.Size = new System.Drawing.Size(87, 13);
+            this.labelIsBookNew_TAM.Size = new System.Drawing.Size(101, 13);
             this.labelIsBookNew_TAM.TabIndex = 37;
             this.labelIsBookNew_TAM.Text = "Новое издание:";
             // 
             // labelGenre_TAM
             // 
             this.labelGenre_TAM.AutoSize = true;
-            this.labelGenre_TAM.Location = new System.Drawing.Point(311, 66);
+            this.labelGenre_TAM.BackColor = System.Drawing.Color.Transparent;
+            this.labelGenre_TAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelGenre_TAM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelGenre_TAM.Location = new System.Drawing.Point(304, 67);
             this.labelGenre_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelGenre_TAM.Name = "labelGenre_TAM";
-            this.labelGenre_TAM.Size = new System.Drawing.Size(39, 13);
+            this.labelGenre_TAM.Size = new System.Drawing.Size(44, 13);
             this.labelGenre_TAM.TabIndex = 36;
             this.labelGenre_TAM.Text = "Жанр:";
             // 
             // labelYear_TAM
             // 
             this.labelYear_TAM.AutoSize = true;
-            this.labelYear_TAM.Location = new System.Drawing.Point(56, 119);
+            this.labelYear_TAM.BackColor = System.Drawing.Color.Transparent;
+            this.labelYear_TAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelYear_TAM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelYear_TAM.Location = new System.Drawing.Point(41, 121);
             this.labelYear_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelYear_TAM.Name = "labelYear_TAM";
-            this.labelYear_TAM.Size = new System.Drawing.Size(74, 13);
+            this.labelYear_TAM.Size = new System.Drawing.Size(86, 13);
             this.labelYear_TAM.TabIndex = 35;
             this.labelYear_TAM.Text = "Год выпуска:";
             // 
             // labelAuthor_TAM
             // 
             this.labelAuthor_TAM.AutoSize = true;
-            this.labelAuthor_TAM.Location = new System.Drawing.Point(67, 71);
+            this.labelAuthor_TAM.BackColor = System.Drawing.Color.Transparent;
+            this.labelAuthor_TAM.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAuthor_TAM.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelAuthor_TAM.Location = new System.Drawing.Point(62, 71);
             this.labelAuthor_TAM.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelAuthor_TAM.Name = "labelAuthor_TAM";
-            this.labelAuthor_TAM.Size = new System.Drawing.Size(40, 13);
+            this.labelAuthor_TAM.Size = new System.Drawing.Size(46, 13);
             this.labelAuthor_TAM.TabIndex = 34;
             this.labelAuthor_TAM.Text = "Автор:";
             // 
             // labelBook_Name
             // 
             this.labelBook_Name.AutoSize = true;
-            this.labelBook_Name.Location = new System.Drawing.Point(290, 14);
+            this.labelBook_Name.BackColor = System.Drawing.Color.Transparent;
+            this.labelBook_Name.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelBook_Name.ForeColor = System.Drawing.SystemColors.Control;
+            this.labelBook_Name.Location = new System.Drawing.Point(281, 14);
             this.labelBook_Name.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelBook_Name.Name = "labelBook_Name";
-            this.labelBook_Name.Size = new System.Drawing.Size(60, 13);
+            this.labelBook_Name.Size = new System.Drawing.Size(69, 13);
             this.labelBook_Name.TabIndex = 33;
             this.labelBook_Name.Text = "Название:";
             // 
